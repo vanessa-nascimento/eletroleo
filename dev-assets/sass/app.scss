@@ -1,0 +1,24 @@
+$warning: #f7e189;
+$warning-color: #f39c12;
+$btn-warning-color: $warning-color;
+$font-family: 'Monserrat', sans-serif;
+
+//misc settings
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/owl.carousel/dist/assets/owl.carousel.css';
+@import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.css';
+@import '../../node_modules/animate.css/animate.css';
+
+body{ 
+    color:#333;
+}
+
+
+.title-section{
+    margin-bottom:30px;
+}
+
+
+
+@import 'main.scss';
+

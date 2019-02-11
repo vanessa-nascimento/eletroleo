@@ -1,0 +1,104 @@
+#banner .row{
+    min-height: 100vh;
+}
+
+.title-section{
+    .title-principal, .title-large{
+        background: $warning;
+        color:#f39c12;
+        font-weight: 600;
+        line-height: 100%;
+        display: inline-block;
+    }
+
+    .title-sub{
+        font-weight:300;
+        font-size: 40px
+    }
+
+    .title-small{
+        font-weight:300;
+    }
+}
+
+
+.btn-banner{
+    border-radius: 50px;
+    font-weight:600;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+.btn-outline-warning{
+    color:#f39c12;
+}
+
+.divider{
+    background:#f39c12;
+    width:20%;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+#diferenciais{
+    margin-top: -50px;
+
+    .container {
+        border-radius: 10px;
+        background: #fff;
+        padding: 25px 50px;
+    }
+
+    .ico-diferenciais{
+        color: #f39c12;
+        font-size: 45px;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+.service-list {
+    .columns-1 {
+        .icon-box {
+            order: 2;
+        }
+    }
+    .row {
+        align-items: center;
+    }
+    .item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 55px;
+            color: #f39c12;
+        }
+    }
+}
+
+.info-contact {
+    .title {
+        margin: 0;
+    }
+    .icon-box {
+        i {
+            font-size: 45px;
+            color: $warning-color;
+        }
+    }
+}
+
+.page-footer, #servicos{
+    border-top:1px solid #f2f2f2;
+}
+
+.footer-copyright {
+    padding: 10px 0;
+    text-align: center;
+}
